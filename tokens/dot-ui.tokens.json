@@ -1,0 +1,346 @@
+{
+  "primitive": {
+    "color": {
+      "accessibleYellow": { "value": "#BE5B05", "type": "color" },
+      "arrive": { "value": "#2AAAE2", "type": "color" },
+      "axle": { "value": "#1D1E20", "type": "color" },
+      "bandit": { "value": "#E0F3FB", "type": "color" },
+      "bayouBlue": { "value": "#039DDD", "type": "color" },
+      "bigSky": { "value": "#B1E1F5", "type": "color" },
+      "black": { "value": "#000000", "type": "color", "description": "Pure black; base for filledInputBackground alpha." },
+      "blueridge": { "value": "#0062C0", "type": "color" },
+      "burnout": { "value": "#46494F", "type": "color", "description": "Defined in Colors.ts but referenced by no semantic role." },
+      "chrome": { "value": "#D4D6D9", "type": "color" },
+      "darkBlue": { "value": "#134187", "type": "color" },
+      "darkRed": { "value": "#BA1B1F", "type": "color" },
+      "diesel": { "value": "#F1AE11", "type": "color" },
+      "frogger": { "value": "#2B731A", "type": "color" },
+      "gasoline": { "value": "#FEEFCB", "type": "color" },
+      "gatorguts": { "value": "#4CAF50", "type": "color" },
+      "grease": { "value": "#0A0A0B", "type": "color" },
+      "jackknife": { "value": "#CB2024", "type": "color" },
+      "juiceBox": { "value": "#9E41E8", "type": "color" },
+      "LFGrey": { "value": "#9EA2A9", "type": "color" },
+      "lightBlue": { "value": "#A9D1F5", "type": "color", "description": "Stored lowercase (#a9d1f5) in Colors.ts; hex is case-insensitive." },
+      "mediumBlue": { "value": "#0483B8", "type": "color" },
+      "mileMarker": { "value": "#E8F5E9", "type": "color" },
+      "nightTime": { "value": "#007DBC", "type": "color" },
+      "ratingActive": { "value": "#FFB400", "type": "color" },
+      "roadhog": { "value": "#303236", "type": "color", "description": "Defined in Colors.ts but referenced by no semantic role." },
+      "smokey": { "value": "#60646C", "type": "color" },
+      "tandem": { "value": "#F4F5F5", "type": "color" },
+      "white": { "value": "#FFFFFF", "type": "color" },
+      "whoaNelly": { "value": "#FFEDF1", "type": "color" }
+    },
+    "fontFamily": {
+      "base": { "value": "CircularXX, \"Open Sans\", sans-serif", "type": "fontFamilies", "description": "Typography.ts allVariants.fontFamily." }
+    },
+    "fontWeight": {
+      "regular": { "value": 400, "type": "fontWeights" },
+      "medium": { "value": 500, "type": "fontWeights" }
+    },
+    "fontSize": {
+      "xxxsmall": { "value": "0.59rem", "type": "fontSizes" },
+      "xxsmall": { "value": "0.75rem", "type": "fontSizes" },
+      "xsmall": { "value": "0.875rem", "type": "fontSizes" },
+      "default": { "value": "1rem", "type": "fontSizes" },
+      "small": { "value": "1.06rem", "type": "fontSizes" },
+      "gutter": { "value": "1.59rem", "type": "fontSizes" },
+      "normal": { "value": "1.375rem", "type": "fontSizes" },
+      "medium": { "value": "1.625rem", "type": "fontSizes" },
+      "large": { "value": "2rem", "type": "fontSizes" },
+      "xlarge": { "value": "2.18rem", "type": "fontSizes" },
+      "xxlarge": { "value": "2.625rem", "type": "fontSizes" }
+    },
+    "letterSpacing": {
+      "negativeLarge": { "value": "-0.75px", "type": "letterSpacing" },
+      "negativeMedium": { "value": "-0.35px", "type": "letterSpacing" },
+      "negativeSmall": { "value": "-0.15px", "type": "letterSpacing" },
+      "cero": { "value": "0px", "type": "letterSpacing", "description": "'cero' = zero." },
+      "xsmall": { "value": "0.1px", "type": "letterSpacing" },
+      "small": { "value": "0.3px", "type": "letterSpacing" },
+      "medium": { "value": "0.25px", "type": "letterSpacing" },
+      "large": { "value": "0.75px", "type": "letterSpacing" }
+    },
+    "lineHeight": {
+      "110": { "value": "110%", "type": "lineHeights" },
+      "115": { "value": "115%", "type": "lineHeights" },
+      "120": { "value": "120%", "type": "lineHeights" },
+      "125": { "value": "125%", "type": "lineHeights" },
+      "130": { "value": "130%", "type": "lineHeights" },
+      "135": { "value": "135%", "type": "lineHeights" },
+      "140": { "value": "140%", "type": "lineHeights" }
+    }
+  },
+  "semantic": {
+    "primary": {
+      "main": { "value": "{color.arrive}", "type": "color" },
+      "dark": { "value": "{color.nightTime}", "type": "color" },
+      "light": { "value": "{color.bandit}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "secondary": {
+      "main": { "value": "{color.blueridge}", "type": "color" },
+      "dark": { "value": "{color.darkBlue}", "type": "color" },
+      "light": { "value": "{color.lightBlue}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "action": {
+      "active": { "value": "rgba({color.axle}, 0.34)", "type": "color", "description": "axle at alpha 0.34. rgba() reference keeps the primitive link; Tokens Studio resolves it on export." },
+      "hover": { "value": "rgba({color.axle}, 0.04)", "type": "color", "description": "axle at alpha 0.04." },
+      "selected": { "value": "rgba({color.axle}, 0.08)", "type": "color", "description": "axle at alpha 0.08." },
+      "disabled": { "value": "rgba({color.axle}, 0.24)", "type": "color", "description": "axle at alpha 0.24." },
+      "disabledBackground": { "value": "rgba({color.axle}, 0.1)", "type": "color", "description": "axle at alpha 0.1." },
+      "focus": { "value": "rgba({color.axle}, 0.15)", "type": "color", "description": "axle at alpha 0.15." }
+    },
+    "error": {
+      "main": { "value": "{color.jackknife}", "type": "color" },
+      "dark": { "value": "{color.darkRed}", "type": "color" },
+      "light": { "value": "{color.whoaNelly}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "warning": {
+      "main": { "value": "{color.diesel}", "type": "color" },
+      "dark": { "value": "{color.accessibleYellow}", "type": "color" },
+      "light": { "value": "{color.gasoline}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "info": {
+      "main": { "value": "{color.bayouBlue}", "type": "color" },
+      "dark": { "value": "{color.mediumBlue}", "type": "color" },
+      "light": { "value": "{color.bigSky}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "success": {
+      "main": { "value": "{color.gatorguts}", "type": "color" },
+      "dark": { "value": "{color.frogger}", "type": "color" },
+      "light": { "value": "{color.mileMarker}", "type": "color" },
+      "contrastText": { "value": "{color.white}", "type": "color" }
+    },
+    "text": {
+      "primary": { "value": "{color.axle}", "type": "color" },
+      "secondary": { "value": "rgba({color.smokey}, 0.9)", "type": "color", "description": "smokey at alpha 0.9." },
+      "disabled": { "value": "rgba({color.chrome}, 0.85)", "type": "color", "description": "chrome at alpha 0.85." }
+    },
+    "neutral": {
+      "main": { "value": "{color.chrome}", "type": "color" },
+      "dark": { "value": "{color.LFGrey}", "type": "color" },
+      "light": { "value": "{color.tandem}", "type": "color" },
+      "contrastText": { "value": "{color.axle}", "type": "color" }
+    },
+    "common": {
+      "black": { "value": "{color.axle}", "type": "color", "description": "MUI common.black maps to axle, not pure black." },
+      "white": { "value": "{color.white}", "type": "color" }
+    },
+    "background": {
+      "default": { "value": "{color.tandem}", "type": "color" },
+      "paper": { "value": "{color.white}", "type": "color", "description": "Explicit; previously relied on MUI default white." },
+      "darkPaper": { "value": "{color.grease}", "type": "color", "description": "Custom slot augmented in Theme.types.ts (TypeBackground.darkPaper)." }
+    },
+    "other": {
+      "backdropOverlay": { "value": "rgba({color.axle}, 0.5)", "type": "color", "description": "axle at alpha 0.5." },
+      "outlinedBorder": { "value": "{color.LFGrey}", "type": "color" },
+      "focusRingColor": { "value": "{color.axle}", "type": "color" },
+      "criticalValue": { "value": "{color.juiceBox}", "type": "color" },
+      "ratingActive": { "value": "{color.ratingActive}", "type": "color", "description": "Consumed by component MuiRating (iconFilled)." },
+      "filledInputBackground": { "value": "rgba({color.black}, 0.06)", "type": "color", "description": "black at alpha 0.06. Token defined but not yet consumed - InputBase.ts forces white !important." },
+      "standardInputLine": { "value": "{color.arrive}", "type": "color", "description": "Equal to arrive / primary.main. Token defined but not yet consumed - no standard-variant underline styling exists." }
+    }
+  },
+  "component": {
+    "typography": {
+      "h3": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xxlarge}",
+          "letterSpacing": "{letterSpacing.negativeLarge}",
+          "lineHeight": "{lineHeight.115}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xlarge}"
+          }
+        }
+      },
+      "h4": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.large}",
+          "letterSpacing": "{letterSpacing.negativeMedium}",
+          "lineHeight": "{lineHeight.125}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.gutter}",
+            "lineHeight": "{lineHeight.120}"
+          }
+        }
+      },
+      "h5": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.medium}",
+          "letterSpacing": "{letterSpacing.negativeSmall}",
+          "lineHeight": "{lineHeight.125}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.normal}",
+            "letterSpacing": "{letterSpacing.cero}"
+          }
+        }
+      },
+      "h6": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.normal}",
+          "letterSpacing": "{letterSpacing.xsmall}",
+          "lineHeight": "{lineHeight.125}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.small}",
+            "lineHeight": "{lineHeight.135}"
+          }
+        }
+      },
+      "subtitle1": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.default}",
+          "letterSpacing": "{letterSpacing.xsmall}",
+          "lineHeight": "{lineHeight.120}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xsmall}",
+            "lineHeight": "{lineHeight.140}"
+          }
+        }
+      },
+      "subtitle2": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.xsmall}",
+          "letterSpacing": "{letterSpacing.cero}",
+          "lineHeight": "{lineHeight.115}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xxsmall}",
+            "lineHeight": "{lineHeight.130}"
+          }
+        }
+      },
+      "body1": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.default}",
+          "letterSpacing": "{letterSpacing.xsmall}",
+          "lineHeight": "{lineHeight.140}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xsmall}"
+          }
+        }
+      },
+      "body2": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xsmall}",
+          "letterSpacing": "{letterSpacing.cero}",
+          "lineHeight": "{lineHeight.140}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xxsmall}",
+            "lineHeight": "{lineHeight.130}"
+          }
+        }
+      },
+      "buttonSmall": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.xxsmall}",
+          "letterSpacing": "{letterSpacing.xsmall}",
+          "lineHeight": "{lineHeight.140}"
+        }
+      },
+      "buttonMedium": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.xsmall}",
+          "letterSpacing": "{letterSpacing.xsmall}",
+          "lineHeight": "{lineHeight.140}"
+        }
+      },
+      "buttonLarge": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.medium}",
+          "fontSize": "{fontSize.default}",
+          "letterSpacing": "{letterSpacing.small}",
+          "lineHeight": "{lineHeight.140}"
+        }
+      },
+      "caption": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xxsmall}",
+          "letterSpacing": "{letterSpacing.medium}",
+          "lineHeight": "{lineHeight.110}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xxxsmall}",
+            "lineHeight": "{lineHeight.120}"
+          }
+        }
+      },
+      "overline": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{fontFamily.base}",
+          "fontWeight": "{fontWeight.regular}",
+          "fontSize": "{fontSize.xsmall}",
+          "letterSpacing": "{letterSpacing.large}",
+          "lineHeight": "{lineHeight.140}"
+        },
+        "$extensions": {
+          "com.arrivelogistics.dot-ui.responsiveSm": {
+            "fontSize": "{fontSize.xxsmall}",
+            "lineHeight": "{lineHeight.130}"
+          }
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["primitive", "semantic", "component"]
+  }
+}
